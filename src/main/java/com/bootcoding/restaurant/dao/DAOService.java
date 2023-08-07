@@ -14,7 +14,7 @@ public class DAOService {
             // 2. Establish Connection with your local database
             Connection con = DriverManager
                     .getConnection("jdbc:postgresql://localhost:5432/restaurant",
-                            "postgres", "Pssql@#02891");
+                            "postgres", "yourPassword");
             return con;
         } catch (Exception ex) {
             ex.printStackTrace();
